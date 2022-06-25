@@ -1,0 +1,13 @@
+.card-group {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    align-items: baseline;
+}
+
+@media (max-width: 600px) {
+    .card-group {
+        grid-template-columns: 1fr;
+    }
+}
